@@ -1,0 +1,11 @@
+###
+GET http://localhost:3000/api/products
+
+###
+POST http://localhost:3000/api/products
+
+{
+    "title": "Java",
+    "description": "Crie aplicações orientadas a objeto",
+    "url": "http://www.java.com"
+}
