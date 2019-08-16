@@ -1,16 +1,12 @@
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate');
 
-const ProductSchema = new mongoose.Schema({
-    title: {
+const AttackSchema = new mongoose.Schema({
+    name: {
         type: String,
         required: true,
     },
     description: {
-        type: String,
-        required: true,
-    },
-    url: {
         type: String,
         required: true,
     },
@@ -20,6 +16,6 @@ const ProductSchema = new mongoose.Schema({
     },
 });
 
-ProductSchema.plugin(mongoosePaginate);
+AttackSchema.plugin(mongoosePaginate);
 
-mongoose.model('Product', ProductSchema);
+mongoose.model('Attack', AttackSchema);
