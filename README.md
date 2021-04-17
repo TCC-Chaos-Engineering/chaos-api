@@ -20,7 +20,7 @@
 
 ### Suba um container com a instalação do mongo
 
-### Parâmetros: nome, redirecionamento de porta e imagem
+#### Parâmetros: nome, redirecionamento de porta e imagem
 
 `docker run --name mongodb -p 27017:27017 -d mongo`
 
@@ -30,7 +30,7 @@
 
 `docker ps`
 
-### Verificar quais imagens estão disponíveis
+### Verifique quais imagens estão disponíveis
 
 `docker ps -a`
 
