@@ -8,7 +8,7 @@
 
 `npm install`
 
-### INICIALIZAÇÃO DA API
+## Inicialização da API
 
 ### Verifique se o docker está instalado no seu computador
 
@@ -20,11 +20,11 @@
 
 ### Suba um container com a instalação do mongo
 
-## Parâmetros: nome, redirecionamento de porta e imagem
+### Parâmetros: nome, redirecionamento de porta e imagem
 
 `docker run --name mongodb -p 27017:27017 -d mongo`
 
-## Obs: Deve retornar um código após execução do comando acima.
+### Obs: Deve retornar um código após execução do comando acima.
 
 ### Verifique quais imagens estão rodando
 
